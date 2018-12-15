@@ -1,7 +1,7 @@
 # Amazon Test
 1. System Requirement  
-python must be installed  
-pip must be installed  
+Python must be installed  
+'pip' must be installed  
 Chrome browser must be installed
 allure-report should be installed. Follow this link for instruction https://docs.qameta.io/allure/#_installing_a_commandline  
   
