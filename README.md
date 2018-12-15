@@ -11,8 +11,7 @@ From project root folder run command [pip install -r requirements.txt]
 
 3. Running Test  
 a. Run by Behave runner  
-From project root folder run command [behave]    
-
+From project root folder run command [behave]  
 b. Run by Allure-Behave runner  
 From project root folder run command []  
 
