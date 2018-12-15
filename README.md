@@ -12,17 +12,11 @@ From project root folder run command [pip install -r requirements.txt]
 3. Running Test  
 a. Run by Behave runner  
 From project root folder run command [behave]  
+
 b. Run by Allure-Behave runner  
-From project root folder run command []  
+From project root folder run command [behave -f allure_behave.formatter:AllureFormatter -o allure-result -D browser=chrome]    
 
 
 3. Viewing Report  
-Test report is generated under [target/cucumber-html-reports] folder after test completed  
-Screenshot is embedded to the report when test failed  
-
-
-4. Improvement  
-Making test run in parallel  
-Auto re-run failed test  
-Run test in headless mode using Docker
-  
+a. Behave test report is generated as [behave-report.json] when the test completes.  
+b. Run [allure serve allure-result] to view Allure report
