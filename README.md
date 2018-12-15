@@ -12,11 +12,9 @@ From project root folder run command [pip install -r requirements.txt]
 3. Running Test  
 a. Run by Behave runner  
 From project root folder run command [behave]  
-
 b. Run by Allure-Behave runner  
 From project root folder run command [behave -f allure_behave.formatter:AllureFormatter -o allure-result -D browser=chrome]    
 
-
-3. Viewing Report  
+4. Viewing Report  
 a. Behave test report is generated as [behave-report.json] when the test completes.  
 b. Run [allure serve allure-result] to view Allure report
