@@ -20,7 +20,7 @@ def set_up_driver(context):
         options.add_argument("--start-maximized")
 
         # for running in headless mode
-        options.add_argument("--headless")
+        # options.add_argument("--headless")
         context.browser = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=options)
 
         # executable_path = base_dir + DataFactory.chrome_driver
