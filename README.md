@@ -9,7 +9,7 @@ allure-report should be installed. Follow this link for instruction https://docs
 2. Install Required Libraries  
 From project root folder run command [pip install -r requirements.txt]   
 
-3. Running Test
+3. Running Test  
 a. Run by Behave runner  
 From project root folder run command [behave]    
 
