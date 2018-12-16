@@ -18,4 +18,4 @@ From project root folder run command [behave -f allure_behave.formatter:AllureFo
 4. Viewing Report  
 a. Behave test report is generated as [behave-report.json] when the test completes.  
 b. Run [allure serve allure-result] to view Allure report  
-c. Screen capture for run test(open the link by browser has flash installed) https://screencast.com/t/EdBoYght9
+c. Screen capture for run test in local and in Jenkins(open the link by browser has flash installed) https://screencast.com/t/EdBoYght9  https://screencast.com/t/xSLWomPkx2N
