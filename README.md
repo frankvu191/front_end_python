@@ -2,8 +2,8 @@
 1. System Requirement  
 Python must be installed  
 'pip' must be installed  
-Chrome browser must be installed
-allure-report should be installed. Follow this link for instruction https://docs.qameta.io/allure/#_installing_a_commandline  
+Chrome browser must be installed  
+Allure-Report should be installed. Follow this link for instruction https://docs.qameta.io/allure/#_installing_a_commandline  
   
   
 2. Install Required Libraries  
