@@ -5,7 +5,7 @@ from lib.page_objects.base_po import BasePage
 class SearchResultPage(BasePage):
 
     def __init__(self, context):
-        BasePage.__init__(self, context.browser)
+        super().__init__(context.browser)
 
     def get_result_count_text(self):
         result_count_text = (self.find_element(*SearchResultPageLocators.RESULT_COUNT_TEXT)).text

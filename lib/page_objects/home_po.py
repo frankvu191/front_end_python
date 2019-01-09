@@ -9,7 +9,7 @@ class HomePage(BasePage):
     elements = {}
 
     def __init__(self, context):
-        BasePage.__init__(self, context.browser)
+        super().__init__(context.browser)
 
     def search_for_item(self, item):
         search_field = self.find_element(*HomePageLocators.SEARCH_FIELD)
