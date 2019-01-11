@@ -9,10 +9,11 @@ class HomePage(BasePage):
     elements = {}
 
     def __init__(self, context):
+        self.locator = HomePageLocators
         super().__init__(context.browser)
 
     def search_for_item(self, item):
-        search_field = self.find_element(*HomePageLocators.SEARCH_FIELD)
+        search_field = self.find_element(*self.locator.SEARCH_FIELD)
         self.write_text(search_field, item)
         search_field.send_keys(Keys.ENTER)
 
